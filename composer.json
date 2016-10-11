@@ -32,49 +32,16 @@
       "url": "https://wpackagist.org"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "growdigital/advanced-custom-fields-pro",
-        "version": "5.4.6",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://bitbucket.org/growdigital/advanced-custom-fields-pro/get/5.4.6.zip"
-        },
-        "require" : {
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "https://bitbucket.org/growdigital/advanced-custom-fields-pro/"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "growdigital/wp-migrate-db-pro",
-        "version": "1.6.1",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro/get/1.6.1.zip"
-        },
-        "require" : {
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro/"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "growdigital/wp-migrate-db-pro-media-files",
-        "version": "1.4.5",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro-media-files/get/1.4.5.zip"
-        },
-        "require" : {
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro-media-files/"
     }
   ],
   "require": {
@@ -85,9 +52,9 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/custom-post-type-ui": "^1.4",
-    "growdigital/advanced-custom-fields-pro": "*",
-    "growdigital/wp-migrate-db-pro": "*",
-    "growdigital/wp-migrate-db-pro-media-files": "*"
+    "growdigital/advanced-custom-fields-pro": "^5.4.6",
+    "growdigital/wp-migrate-db-pro": "^1.6.1",
+    "growdigital/wp-migrate-db-pro-media-files": "^1.4.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
