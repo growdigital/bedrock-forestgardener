@@ -33,15 +33,15 @@
     },
     {
       "type": "vcs",
-      "url": "https://bitbucket.org/growdigital/advanced-custom-fields-pro/"
+      "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git"
     },
     {
       "type": "vcs",
-      "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro/"
+      "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro.git"
     },
     {
       "type": "vcs",
-      "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro-media-files/"
+      "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro-media-files.git"
     }
   ],
   "require": {
@@ -52,9 +52,9 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/custom-post-type-ui": "^1.4",
-    "growdigital/advanced-custom-fields-pro": "^5.4.6",
-    "growdigital/wp-migrate-db-pro": "^1.6.1",
-    "growdigital/wp-migrate-db-pro-media-files": "^1.4.5"
+    "growdigital/advanced-custom-fields-pro": "*",
+    "growdigital/wp-migrate-db-pro": "*",
+    "growdigital/wp-migrate-db-pro-media-files": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
