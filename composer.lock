@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8841d851c42839f4249ff098e3815891",
-    "content-hash": "c9d51f9d30138d7aa2f38dfc1a1b31f2",
+    "hash": "59e99cf5b5cd08b88fd34f07d1a3cea3",
+    "content-hash": "d7441e9b7220722abd635f7443126eb9",
     "packages": [
         {
             "name": "composer/installers",
@@ -109,48 +109,45 @@
         },
         {
             "name": "growdigital/advanced-custom-fields-pro",
-            "version": "5.4.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git",
-                "reference": "96518cdb84a605e005100f5f96bf3da2801437f1"
+                "reference": "0934d4409375b93c030e07e216128629b5f243fe"
             },
-            "dist": {
-                "type": "git",
-                "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git",
-                "reference": null,
-                "shasum": null
+            "require": {
+                "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-07 11:00:14"
+            "time": "2016-10-15 20:13:23"
         },
         {
             "name": "growdigital/wp-migrate-db-pro",
-            "version": "1.6.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro.git",
-                "reference": "8a4b589244c8337cb8458568f049558375ec62f8"
+                "reference": "9256a79450a166f1d49afd3957ca0650707ce8e3"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-07 15:10:21"
+            "time": "2016-10-15 19:56:24"
         },
         {
             "name": "growdigital/wp-migrate-db-pro-media-files",
-            "version": "1.4.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro-media-files.git",
-                "reference": "05bd023492ae0b2f5530ef0a3f6271ccb795cc4a"
+                "reference": "feffd65c4aa86081297ad38fc5eadcfa8f56162a"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-07 15:11:01"
+            "time": "2016-10-15 20:18:07"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -489,7 +486,11 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "growdigital/advanced-custom-fields-pro": 20,
+        "growdigital/wp-migrate-db-pro": 20,
+        "growdigital/wp-migrate-db-pro-media-files": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
