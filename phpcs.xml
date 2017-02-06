@@ -2,11 +2,28 @@
 <ruleset name="Roots">
   <description>Roots Coding Standards</description>
 
+<<<<<<< HEAD
+=======
+  <!-- Scan all files in directory -->
+  <file>.</file>
+
+  <!-- Scan only PHP files -->
+  <arg name="extensions" value="php"/>
+
+  <!-- Ignore WordPress and Composer dependencies -->
+  <exclude-pattern>web/wp</exclude-pattern>
+  <exclude-pattern>vendor/</exclude-pattern>
+
+>>>>>>> upstream/master
   <!-- Show colors in console -->
   <arg value="-colors"/>
 
   <!-- Show sniff codes in all reports -->
+<<<<<<< HEAD
   <arg value="s"/>
+=======
+  <arg value="ns"/>
+>>>>>>> upstream/master
 
   <!-- Use PSR-2 as a base -->
   <rule ref="PSR2"/>

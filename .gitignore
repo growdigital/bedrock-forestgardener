@@ -2,8 +2,11 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
+<<<<<<< HEAD
 web/app/themes/*
 !web/app/themes/.gitkeep
+=======
+>>>>>>> upstream/master
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
@@ -12,15 +15,19 @@ web/app/uploads/*
 web/wp
 web/.htaccess
 
+<<<<<<< HEAD
 # WP-CLI
 db-sync
 sql-dump-*.sql
 
+=======
+>>>>>>> upstream/master
 # Dotenv
 .env
 .env.*
 !.env.example
 
+<<<<<<< HEAD
 # Vendor (e.g. Composer)
 vendor/*
 !vendor/.gitkeep
@@ -34,3 +41,8 @@ bin
 
 # System
 .DS_Store
+=======
+# Composer
+vendor/*
+!vendor/.gitkeep
+>>>>>>> upstream/master
