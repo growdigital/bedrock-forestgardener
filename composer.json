@@ -52,9 +52,10 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/custom-post-type-ui": "^1.4",
+    "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": "^3.7",
     "growdigital/advanced-custom-fields-pro": "dev-master",
-    "growdigital/wp-migrate-db-pro": "dev-master",
-    "growdigital/wp-migrate-db-pro-media-files": "dev-master"
+    "growdigital/wp-migrate-db-pro": "dev-dev-master",
+    "growdigital/wp-migrate-db-pro-media-files": "dev-dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

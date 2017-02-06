@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "59e99cf5b5cd08b88fd34f07d1a3cea3",
-    "content-hash": "d7441e9b7220722abd635f7443126eb9",
+    "hash": "ab5ccb388662028256b1e1122ddbba01",
+    "content-hash": "fa2e414a8042b515799e8e4a896e7739",
     "packages": [
         {
             "name": "composer/installers",
@@ -113,17 +113,17 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git",
-                "reference": "0934d4409375b93c030e07e216128629b5f243fe"
+                "reference": "c3d18c558c454777b0efa906bdb7cb1de9ea29e6"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-15 20:13:23"
+            "time": "2016-11-18 20:30:55"
         },
         {
             "name": "growdigital/wp-migrate-db-pro",
-            "version": "dev-master",
+            "version": "dev-dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro.git",
@@ -137,7 +137,7 @@
         },
         {
             "name": "growdigital/wp-migrate-db-pro-media-files",
-            "version": "dev-master",
+            "version": "dev-dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro-media-files.git",
@@ -385,15 +385,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.4.2",
+            "version": "1.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.4.2"
+                "reference": "tags/1.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -402,21 +402,41 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
+        },
+        {
+            "name": "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g",
+            "version": "3.7.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/social-networks-auto-poster-facebook-twitter-g/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/social-networks-auto-poster-facebook-twitter-g.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/"
         }
     ],
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
+                "reference": "86dd55a522238211f9f3631e3361703578941d9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/86dd55a522238211f9f3631e3361703578941d9a",
+                "reference": "86dd55a522238211f9f3631e3361703578941d9a",
                 "shasum": ""
             },
             "require": {
@@ -481,7 +501,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-09-01 23:53:02"
+            "time": "2017-02-02 03:30:00"
         }
     ],
     "aliases": [],
